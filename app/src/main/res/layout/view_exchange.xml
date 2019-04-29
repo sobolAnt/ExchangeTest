@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:parentTag="android.support.constraint.ConstraintLayout"
+tools:background="@drawable/currency_background_free">
+
+    <TextView
+            android:textColor="#000000"
+            android:paddingTop="4dp"
+            android:id="@+id/currencyTitle"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="GBP"
+    />
+
+    <TextView
+            android:id="@+id/currencyExchange"
+            app:layout_constraintTop_toBottomOf="@id/currencyTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            tools:text="555.86340"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4dp"/>
+
+</merge>

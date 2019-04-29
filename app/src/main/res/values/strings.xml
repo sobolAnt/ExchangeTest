@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ExchangeTest</string>
+    <string name="input_your_money">Input your money</string>
+    <string name="money_after_conversion">Money after conversion</string>
+    <string name="loading">Loading</string>
+    <string name="amount">Amount</string>
+    <string name="show_animations">Show animations</string>
+</resources>
